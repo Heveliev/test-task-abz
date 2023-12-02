@@ -13,8 +13,8 @@ export const Header = () => {
         <Box>
             <img src={logo} alt="Logo" />
             <ButtonBox>
-                <Button type="button"><Link href="#singup"  text="Users"/></Button>
-                <Button type="button"><Link href="#users" text="Sign up"/></Button>
+                <Button type="button"><Link href="#users"  text="Users"/></Button>
+                <Button type="button"><Link href="#singup" text="Sign up"/></Button>
             </ButtonBox>
         </Box></header>);
 };
